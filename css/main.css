@@ -1,0 +1,28 @@
+/* codigo para tirar bordar de qualquer saite*/
+:root{
+    --blue: #4242dd;
+    --white: #eeeeee;
+    --black: #222222;
+    --gray: #444444;
+    --shawdow: #00000050;
+    --frot-title: "serif";
+    --front-primary: "rpboto";
+    --font-size-default: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--front-primary);
+    font-size: var(--font-size-default);
+
+}
+
+a{
+    color: var(--gray);
+    text-decoration: underline;
+}
