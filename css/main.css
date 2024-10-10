@@ -26,3 +26,10 @@ a{
     color: var(--gray);
     text-decoration: underline;
 }
+
+.container{
+    width: 100%;
+    min-width: 340px;
+    max-width: 1280px;
+    margin: auto;  /* toda divi que eu quero aplicar eu coloco esse codigo pra*/
+}
