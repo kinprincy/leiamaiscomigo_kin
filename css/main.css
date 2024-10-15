@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,400;0,900;1,500&display=swap');
+
+@import "./nav.css";
+
 /* codigo para tirar bordar de qualquer saite*/
 :root{
     --blue: #4242dd;
@@ -5,8 +9,8 @@
     --black: #222222;
     --gray: #444444;
     --shawdow: #00000050;
-    --frot-title: "serif";
-    --front-primary: "rpboto";
+    --frot-title: "Nunito" sans-serif;
+    --front-primary: "Roboto" sans-serif;
     --font-size-default: 16px;
 }
 
@@ -33,3 +37,4 @@ a{
     max-width: 1280px;
     margin: auto;  /* toda divi que eu quero aplicar eu coloco esse codigo pra*/
 }
+
