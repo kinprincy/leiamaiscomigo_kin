@@ -1,4 +1,4 @@
-function createNavebar() {
+function createNavebar() { /* <- toda função tem um nome */
     const element = document.getElementById("navbar-local")
     const navbar = `
     <nav class="nav-top">
@@ -15,3 +15,5 @@ function createNavebar() {
         element.innerHTML = navbar
     
 }
+
+createNavebar()

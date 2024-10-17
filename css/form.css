@@ -2,8 +2,9 @@
 
 .form-group{
     display: flex;
+    flex-direction: column;
     width: 100%;
-    color: var(--white);
+    color: var(--black);
 }
 
 .form-group input, 
