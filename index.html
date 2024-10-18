@@ -1,35 +1,224 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leia mais comigo | inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/home.css"> <!--usando link para trazer o css para o codigo-->
+    <link rel="stylesheet" href="./css/home.css">
+    <script src="./js/main.js" defer></script>
+    <!--usando link para trazer o css para o codigo-->
 </head>
+
 <body>
+
+    <nav class="navbar sticky-top navbar-expand-lg nav-top">
+        <div class="container">
+          <!--<a class="navbar-brand" href="#">Navbar</a>-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarNav" 
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle 
+          navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#cards">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#agenda">Agenda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Entar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
     <header>
+
         <nav class="nav-top">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Galeria</a></li>
-                <li><a href="#">Agenda</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="index.html#cards">Galeria</a></li>
+                <li><a href="index.html#agenda">Agenda</a></li>
+                <li><a href="index.html#contato">Contato</a></li>
+                <li><a href="login.html">Entrar</a></li>
             </ul>
+
         </nav>
-        <div class="header-content">
-            <div class="header-text">
-                <h1>Titulo</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dignissimos ipsam eius officiis. Maxime tempore vitae qui eius, at reiciendis molestiae, sunt in sint provident amet adipisci aut laborum et.</p>
-            </div>
-            <div class="header-logo">
-                <img src="./image/logo.png" alt="logomarca do projeto leia mais comigo" height="200">
+        <div class="header-main">
+            <div class="header-content container">
+                <div class="header-text">
+                    <h1>Titulo</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dignissimos ipsam eius officiis.
+                        Maxime tempore vitae qui eius, at reiciendis molestiae, sunt in sint provident amet adipisci aut
+                        laborum et.</p>
+                </div>
+                <div class="header-logo">
+                    <img src="./image/logo.png" alt="logomarca do projeto leia mais comigo" height="200">
+                </div>
             </div>
         </div>
     </header>
 
+    <section class="card-content" id="cards">
+        <div class="container">
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/200/200" alt="foto do livro" height="200">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/200/200" alt="foto do livro" height="200">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/200/200" alt="foto do livro" height="200">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/200/200" alt="foto do livro" height="200">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/200/200" alt="foto do livro" height="200">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/200/200" alt="foto do livro" height="200">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/200/200" alt="foto do livro" height="200">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://picsum.photos/200/200" alt="foto do livro" height="200">
+                </div>
+                <div class="card-text">
+                    <h2>Titulo</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container contact" id="agenda">        
+    </section>
+
+    <section class="container contact" id="contato">
+        <div class="contact-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.3566484378052!2d-43.56141262377825!3d-22.900212537638012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be15839e68c4f%3A0x588a284ae162bc38!2sSenac%20Campo%20Grande!5e0!3m2!1spt-BR!2sbr!4v1728940661782!5m2!1spt-BR!2sbr"
+                width="99%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>
+                <h2>Localização</h2>
+                <p>Rua dos livros, 999 - Campo Grande - RJ</p>
+                <p>tel:(21)99999-9999</p>
+            </div>
+
+        </div>
+        <form action="htpp://api.livros.com.br" class="contact-form">
+            <div class="form-group">
+                <!-- <labelfor="nome">nome</label> -->
+                <input type="text" id="nome" name="nome" placeholder="nome" required>
+            </div>
+
+            <div class="form-group">
+                <!-- <label for="E-mail"</label> -->
+                <input type="email" id="email" placeholder="E-mail" required="false">
+            </div>
+
+            <div class="form-group">
+                <!-- <label for="telefone">telefone</label> -->
+                <input type="tel" id="tel" placeholder="Telefone" required>
+            </div>
+
+            <div class="form-group">
+                <!-- <label for="assunto">assunto</label> -->
+                <select name="Assunto" id="assunto">
+                    <option select disable>Assunto</option>
+                    <option value="2">Susgestão</option>
+                    <option value="3">Elogios</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <textarea name="mensagem" id="mensagem" rows="5" placeholder="mensagem"></textarea>
+            </div>
+
+            <div class="form-group form-group-button">
+                <button>Enviar</button>
+                <button type="reset">Limpar</button>
+            </div>
+        </form>
+    </section>
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+crossorigin="anonymous">
+</script>
 </html>
 
 <!--ol tranforma em numeros os postos e li trasnforma numeros iniciais em pontos -->

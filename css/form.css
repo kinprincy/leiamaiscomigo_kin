@@ -1,0 +1,44 @@
+/* Form */
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--black);
+}
+
+.form-group input, 
+.form-group select, 
+.form-group textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    padding:  5px 10px;
+    border-radius: 8px;
+    border: solid 1px var(--blue);
+    font-family: var(--font-primary) ;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.form-group button{
+    padding: 5px 10px;
+    margin: 0 5px;
+    width: 40%;
+    background-color: var(--blue);
+    color: var(--white);
+    cursor: pointer;
+    border: solid 1px var(--blue);
+    border-radius: 8px;
+}
+
+.form-group button:hover{
+    background-color: var(--white);
+    color: var(--blue);
+}
+
+.form-group-button{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
